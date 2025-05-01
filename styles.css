@@ -174,7 +174,7 @@ a:focus {
   color: blue;
 }
 
-/*--------------- iPhone SE (375px - 667px) --------------- */
+/*--------------- Mobile (375px - 667px) --------------- */
 @media screen and (min-width: 375px) and (max-width: 667px) {
   body {
     margin: 0;
