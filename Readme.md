@@ -27,6 +27,7 @@ The Career Development Plan Kanban Board is a simple project management tool des
 
 - Responsive design for mobile compatibility
 - Task cards behave like a link, changing color when hovering/ focusing
+- Javascripts for 2 new task prompts
 
 ---
 
