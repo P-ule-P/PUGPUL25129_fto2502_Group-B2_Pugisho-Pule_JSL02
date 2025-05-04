@@ -4,10 +4,12 @@ let description1 = prompt("Enter task 1 description:");
 
 let status1;
 while (true) {
+  // Loop until a valid status is entered
   status1 = prompt("Enter task 1 status (todo, doing, done):");
   let statusCase = status1.toLowerCase();
 
   if (statusCase == "todo" || statusCase == "doing" || statusCase == "done") {
+    // Check if the status is valid
     if (statusCase === "todo") {
       alert("No tasks completed, let's go to work!");
       console.log("No tasks completed, let's go to work!");
@@ -32,10 +34,12 @@ let description2 = prompt("Enter task 2 description:");
 
 let status2;
 while (true) {
+  // Loop until a valid status is entered
   status2 = prompt("Enter task 2 status (todo, doing, done):");
   let statusCases = status2.toLowerCase();
 
   if (
+    // Check if the status is valid
     statusCases == "todo" ||
     statusCases == "doing" ||
     statusCases == "done"
